@@ -1,0 +1,394 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.inserrt {
+    height: 10px;
+}
+
+.bg_logo {
+    background-color: rgb(27, 124, 189);
+    color: rgb(29, 21, 21);
+}
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    z-index: 10;
+}
+
+.brand_logo {
+    font-weight: 800;
+    font-size: 20px;
+    padding: 4px;
+    letter-spacing: 3px;
+    border-radius: 6px;
+}
+
+.bgwelcomne {
+    background-image: url('./background-powerpoint-dep.jpg');
+}
+
+.nav_css {
+    position: sticky
+}
+
+.fillter {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0), rgb(39, 39, 38));
+}
+
+.slidercode {
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+    background-color: rgba(99, 90, 90, 0.61);
+}
+
+.content_post img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.tab {
+    margin-left: 40px;
+}
+
+.categoryL {
+    width: 100%;
+}
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
+
+.list_artical {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+@keyframes dropList {
+    from {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(180deg)
+    }
+}
+
+@keyframes dropListWT {
+    from {
+        transform: rotate(180deg)
+    }
+    to {
+        transform: rotate(0deg)
+    }
+}
+
+.dropcola:hover,
+.dropcola {
+    text-decoration: none;
+    color: black;
+}
+
+.dropcola:focus .collasp {
+    transform: rotate(-180deg);
+    animation: dropList 1s linear;
+}
+
+.slide_list {
+    position: relative;
+}
+
+.slide_content {
+    position: absolute;
+    left: 10%;
+    top: 57%;
+    margin-right: 80px;
+}
+
+.slide_title {
+    color: azure;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 3vw;
+    font-weight: 700;
+}
+
+.slide_subtitle {
+    color: rgb(119, 109, 109);
+    font-size: 25px;
+}
+
+.marquee_sl {
+    background-color: rgb(76, 76, 90);
+    color: antiquewhite;
+    position: relative;
+}
+
+.marquee_sl a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.marquee_sl a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.label_title {
+    position: absolute;
+    height: 100%;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.473));
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: 700;
+    top: 0%;
+    left: 0px;
+    padding-left: 8px;
+    padding-right: 20px;
+}
+
+.header_card {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.arti_card {
+    position: relative;
+}
+
+.day_arti {
+    position: absolute;
+    bottom: 10px;
+    right: -2px;
+}
+
+.artical_item {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 575.98px) {
+    .artical_item {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.btn_thumb {
+    height: 100%;
+    width: 20%;
+}
+
+.thum_arti {
+    margin-top: 18px;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 18px;
+    height: 150px;
+    object-fit: cover;
+    transition: all 2s ease;
+}
+
+.thum_arti:hover {
+    transform: scale(1.2);
+}
+
+.btn_search {
+    border-top-left-radius: 0%;
+    border-bottom-left-radius: 0%;
+}
+
+.flex_itemcontact {
+    display: flex;
+    justify-content: center;
+}
+
+.icon_ft {
+    color: white;
+    margin: 4px;
+    padding: 4px;
+}
+
+.icon_ft:hover {
+    color: rgb(0, 0, 0);
+    background-color: bisque;
+    border-top-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+    margin: 4px;
+    text-decoration: none;
+}
+
+.title_post {
+    margin-top: 16px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.boder_blue {
+    width: 40px;
+    border-bottom: 4px solid blue;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.auth_namepost {
+    font-weight: 800;
+    border-right: 1px solid rgba(128, 128, 128, 0.514);
+    padding-top: 1px;
+    padding-right: 6px;
+    text-transform: capitalize;
+}
+
+.date_auth {
+    margin: 5px 10px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.514);
+    padding-bottom: 10px;
+    color: rgba(44, 44, 44, 0.733);
+}
+
+.img_post {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card_title {
+    color: #444;
+    text-align: left;
+    cursor: help;
+}
+
+.card_subtitle {
+    color: #444;
+    text-align: justify;
+}
+
+.subtitle_post {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.content_post {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #444;
+}
+
+.header_tag {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.tags_post {
+    padding: 10px;
+    margin: 10px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.514);
+    border-top: 1px solid rgba(128, 128, 128, 0.514);
+}
+
+.tag_list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.tag_post {
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.514);
+    padding: 2px;
+    margin: 6px;
+    text-decoration: none;
+    color: #000;
+}
+
+.fb-page {
+    width: 100%;
+}
+
+.tag_post:hover {
+    background-color: rgba(8, 8, 8, 0.514);
+    text-decoration: none;
+    color: rgb(231, 222, 210);
+}
+
+.search_group {
+    margin: 30px;
+    padding: 20px;
+}
+
+.content_post {
+    width: 100%;
+}
+
+
+/* ------------------ */
+
+.stylethabk {
+    /* background-color: rgb(27, 124, 189); */
+    background-image: url('https://www.hndev.tech/public/storage/sliderIMG/hinh-nen-powerpoint-23.jpg');
+    height: 400px;
+    display: flex;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.tilte_about {
+    margin: auto;
+    font-size: 7vw;
+    font-weight: 700;
+    color: rgb(248, 248, 248);
+}
+
+.boder_bg {
+    display: flex;
+    width: 96%;
+    height: 70%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border: rgb(209, 194, 194) solid 2px;
+    border-radius: 4px;
+}
+
+.contact_title {
+    font-size: 3vw;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.contact_sub {
+    color: #444;
+}
+
+.tilte_thanks {
+    font-size: 5vw;
+    font-weight: 600;
+    color: aliceblue;
+    margin: auto;
+}
+
+.sub_thankl {
+    display: flex;
+    height: 160px;
+}
+
+.subtilte_thanks {
+    color: rgb(34, 35, 36);
+    margin: auto;
+}
+
+.alert_red {
+    color: red;
+}
